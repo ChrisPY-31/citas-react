@@ -1,0 +1,16 @@
+.agregado{
+    background-color: aliceblue;
+    position: fixed;
+    width: 40rem;
+    height: 5rem;
+    position:fixed;
+    bottom: 10rem;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.agregado__emoji{
+    font-size: 2rem;
+}

@@ -1,0 +1,23 @@
+.favorites-card{
+    display: flex;
+    gap: 2rem;
+}
+.favorites-card__image{
+    height: 20rem;
+    width: 20rem;
+}
+.favorites-card__container{
+    display: flex;
+}
+.favorites-card__title{
+    font-size: 3rem;
+}
+.favorites-card__category{
+    font-size: 2rem;
+}
+.favorites-card__delete{
+    color: #00f;
+    border-bottom: 1px solid #00f;
+    display: inline-block;
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.imageProdu{
+
+}
+.imagenProdu__productos{
+    width: 70%;
+    margin: 0 auto;
+    padding: 15rem 0 ;
+    height: 100vh;
+}
+.imageProdu__container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 50rem;
+    gap: 5rem;
+    background-color: #fff;
+
+}
+.imagenProdu__flexOne{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageProdu__image{
+    width: 35rem;
+    height: 25rem;
+}
+.imagenProdu__flexTwo{
+    margin: 2rem 10px;
+}
+.imagenProdu__two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    border: 1px solid rgb(213, 209, 209);
+    border-radius: 10px;
+    padding: 17px;
+}
+.imageProdu__description{
+    line-height: 1.5;
+}
+.imagenProdu__nuevo{
+    color: gray;
+    font-size: 15px;
+}
+.imageProdu__h2{
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.imageProdu__span{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.imageProdu__suma{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: gray;
+}
+.imagenProdu__precio{
+    font-size: 3rem;
+}
+.imagenProdu__descuento{
+    color: forestgreen;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.imagenProdu__metodosPago{
+    color: forestgreen;
+    font-weight: bold
+}
+.imagenProdu__disponible{
+    font-weight: 900;
+}
+.imageProdu__raiting-count{
+    color: gray;
+    margin-left: 20px;
+}
+.imagenProdu__protegida--span,
+.imagenProdu__Mercado--span{
+    color: #00f;
+    font-weight: bold;
+}

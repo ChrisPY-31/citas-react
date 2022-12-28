@@ -1,0 +1,47 @@
+.personas{
+    border-radius: 15px;
+    height: 50rem;
+    box-shadow: 5px 5px 20px 5px #000;
+
+}
+.personas__container{
+    width: 90%;
+    margin: 0 auto;
+}
+.personas__image-center{
+    display: flex;
+    justify-content: center;
+    
+}
+.clase{
+    margin: 1rem auto;
+}
+.personas__image{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    margin: 2rem auto;
+   
+}
+.personas__image:hover{
+    transform:scale(1.3);transform:scale(1.3);
+    transition-duration: .5s;
+}
+.personas__name{
+    text-align: center;
+    font-weight: bold;
+}
+.personas__parrafo{
+    line-height: 1.7;
+    font-size: 1.6rem;
+}
+.personas__redes{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}

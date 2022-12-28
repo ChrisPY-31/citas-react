@@ -1,0 +1,119 @@
+.nav{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 10rem;
+}
+.nav__titulo{
+    color: white;
+    font-size: 4.2rem;
+    cursor: pointer;
+}
+.nav__description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__ul{
+    display: flex;
+    color: white;
+    gap: 2rem;
+}
+.nav__li{
+    list-style: none;
+}
+.nav__link{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+
+}
+.nav__carrito{
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+.nav__carro{
+    font-size: 4rem;
+    cursor: pointer;
+}
+.nav__cerrar{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: bold;
+    font-size: 2rem;
+    position: absolute;
+    background-color: #f00;
+    width: 3rem;
+    top: -15px;
+    right: -15px;
+    color: #fff;
+}
+.nav__compras{
+    width: 40rem;
+    min-height: 50rem;
+    background-color: aliceblue;
+    position: absolute;
+    top: 10rem;
+    right: 50px;
+    z-index: 1;
+}
+.nav__list-ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.nav__list-li{
+    list-style: none;
+    font-size: 1.6rem;
+}
+.nav__price{
+    padding-right: 5rem;
+}
+.nav__cantidad{
+    padding-right: 5rem;
+}
+.nav__posicion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 95%;
+    margin: 2rem auto;
+}
+.nav__image{
+    height: 10rem;
+    width: 10rem;
+}
+.nav__eliminar{
+    background: #f00;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.nav__botones{
+    display: flex;
+    gap: 10px;
+}
+.botton{
+    width: 45%;
+    margin: 0 auto;
+
+}

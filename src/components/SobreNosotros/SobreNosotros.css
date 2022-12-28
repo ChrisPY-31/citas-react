@@ -1,0 +1,60 @@
+.nosotros{
+ background-color: rgb(38, 170, 226);
+}
+
+.nosotros__container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+.nosotros__h2{
+    text-align: center;
+    font-size: 4.4rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+.nosotros__sobreNosotros{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    background-color: white;
+    
+}
+.nosotros__image{
+    width: 55rem;
+}
+.nosotros__informacion{
+    width: 90%;
+    margin: 10px auto;
+}
+.nosotros__parrafo{
+    font-size: 2rem;
+    line-height: 1.7;
+}
+.nosotros__personas{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 4rem;
+    
+}
+
+.nosotros__flex{
+    margin-top: 2rem;
+}
+.nosotros__equipo{
+    background-color: #fff;
+}
+.nosotros__equipocon{
+    width: 80%;
+    margin: 0 auto;
+}
+.nosotros__equipo--h2{
+    text-align: center;
+    margin: 4rem auto;
+    padding-top: 4rem;
+    font-size: 4rem;
+}
+.nosotros__equipo-parrafo{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.7;
+}
