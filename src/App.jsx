@@ -96,9 +96,7 @@ function App() {
     setImageProdu([produImg])
     
   }
-  console.log(imageProdu)
-  console.log(slider)
-  console.log(searchNav)
+
   
   return (
     <div className="app">
