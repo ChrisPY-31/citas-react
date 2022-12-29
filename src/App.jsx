@@ -33,7 +33,7 @@ function App() {
         console.log('agregandoooooo')
         setTimeout(()=>{
           setAgregar(!agregar)
-        },3000)
+        },1500)
       }
     }
     async function getStoreData(){
@@ -97,7 +97,6 @@ function App() {
     
   }
 
-  
   return (
     <div className="app">
       <Nav  
