@@ -5,8 +5,8 @@ const Search = ( { handleValor }) => {
     handleValor(e.target.value)
   }
   return (
-    <div style={{margin: '20px'}}>
-      <div className="input-group mb-3 container">
+    <div style={{margin: '15px'}}>
+      <div className="input-group mb-3 container ">
         <input
           type="text"
           className="form-control"
@@ -14,6 +14,7 @@ const Search = ( { handleValor }) => {
           aria-label="Recipient's username"
           aria-describedby="button-addon2"
           onChange={handleChange}
+          style={{padding: '10px'}}
         />
         
       </div>

@@ -23,6 +23,7 @@ const Nav = ({ setSearchNav ,carrito , setCarrito , handleCerrar , setSlider , c
     setSearchNav(false)
     setSlider(false)
   }
+ 
   return (
     <nav className="nav">
       <div className="nav__container">
